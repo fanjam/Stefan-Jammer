@@ -1,0 +1,148 @@
+@media (max-width: 768px) {
+     html {
+     font-size: 2em;
+}
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+body {
+  padding: 0px 12px;
+}
+
+p {
+  width:96%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+h2 {
+  font-weight: 400;
+  letter-spacing: 5pt;
+  z-index: 1 !important;
+  width: 600px;
+}
+
+h3 {
+  font-weight: 400;
+  letter-spacing: 5pt;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size:0.742em;
+  font-weight: 400;
+  letter-spacing: 5pt;
+  text-transform: uppercase;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  z-index: 0;
+}
+
+a:hover {
+  color: DimGray;
+  text-decoration: none;
+}
+
+img{
+    max-width:100%;
+    object-fit: contain;
+    }
+
+.menu {
+  position: absolute;
+  left: 22px;
+  top: 0px;
+  z-index: 9999 !important;
+}
+
+.home {
+  position: fixed;
+  left: 22px;
+  top: 0px;
+  z-index: 9999 !important;
+}
+
+.thumb {
+  position: absolute;
+  right: 22px;
+  top: 2px;
+  z-index: 9999 !important;
+}
+
+.lia {
+  padding:11%;
+}
+
+.rose {
+  position: absolute;
+  right: 34%;
+  bottom: 34%;
+  z-index: 9999 !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 3s ease;
+  background-color: black;
+}
+
+.rose:hover .overlay {
+  opacity: 0.88;
+}
+
+.text {
+  color: transparent;
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.old a{
+  position: fixed;
+  right: 50px;
+  bottom: 100px;
+  font-size:0.642em;
+  color: lightgrey !important;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  transform-origin: top right;
+}
+
+.credit {
+  position: fixed;
+  left: 20px;
+  bottom: 10px;
+  font-size:0.642em;
+  color: lightgrey;
+  font-weight: 400;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  transform-origin: top left;
+}
